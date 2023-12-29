@@ -34,7 +34,3 @@ Proyek ini dibuat dengan menggunakan:
 ## Kontribusi
 
 Jika kamu ingin berkontribusi pada proyek ini, silakan lakukan fork dan pull request.
-
-## Lisensi
-
-Proyek ini dilisensikan di bawah [MIT License](LICENSE).

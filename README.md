@@ -6,7 +6,6 @@ Projek ini adalah implementasi sederhana dari kalkulator segitiga menggunakan HT
 
 - **Hitung Luas & Keliling Segitiga**: Kalkulator dapat menghitung luas dan keliling segitiga berdasarkan input yang diberikan.
 - **Validasi Input**: Memvalidasi input untuk memastikan bahwa nilai yang dimasukkan sesuai.
-- **Tampilan Responsif**: Desain responsif untuk digunakan di berbagai perangkat.
 
 ## Cara Menggunakan
 

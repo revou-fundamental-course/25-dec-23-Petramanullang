@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Kalkulator Segitiga</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Kalkulator Segitiga</h1>
+
+      <!-- Hitung Luas -->
+      <div id="kalkulatorLuas" class="calculator">
+        <button class="keliling-btn" onclick="switchCalculator()">
+          Keliling Segitiga
+        </button>
+        <h2>Luas Segitiga</h2>
+        <input type="number" id="base" placeholder="Nilai Alas" />
+
+        <input type="number" id="height" placeholder="Nilai Tinggi" />
+
+        <div id="areaOutput" class="output hidden">
+          <p id="areaFormula" class="formula"></p>
+          <p id="areaCalculation"></p>
+          <p>Luas = <span id="areaResult"></span></p>
+        </div>
+
+        <button class="luas-btn" onclick="calculateArea()">Hitung</button>
+        <button class="reset-btn" onclick="resetCalculator()">Reset</button>
+      </div>
+
+      <!-- Hitung Keliling -->
+      <div id="kalkulatorKeliling" class="calculator hidden">
+        <button class="luas-btn" onclick="switchCalculator()">
+          Luas Segitiga
+        </button>
+
+        <h3>Keliling Segitiga</h3>
+        <input type="number" id="sideA" placeholder="Panjang sisi A" />
+
+        <input type="number" id="sideB" placeholder="Panjang sisi B" />
+
+        <input type="number" id="sideC" placeholder="Panjang sisi C" />
+
+        <div id="perimeterOutput" class="output hidden">
+          <p id="perimeterFormula" class="formula"></p>
+          <p id="perimeterCalculation"></p>
+          <p>Keliling = <span id="perimeterResult"></span></p>
+        </div>
+
+        <button class="keliling-btn" onclick="calculatePerimeter()">
+          Hitung
+        </button>
+        <button class="reset-btn" onclick="resetCalculator()">Reset</button>
+      </div>
+    </div>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
